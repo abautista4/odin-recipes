@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <title>Austin's Favorite Recipes</title>
     <meta charset="UTF-8">
-    <h1>Recipes Project</h1>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class = "h1 homepage">
+        <h1> Recipes Project </h1>
+        </div>
+    </header>
+<main>
+    <div class="page home">
     <p> Welcome to my recipes project! I have a <em>bunch</em> of different 
         recipes to show you all. These are some of my <strong>favorites</strong>. They are 
         all vegetarian friendly! Hope you enjoy them! &#60;3 
     </p>
-    <ol type="a">
-        <li><a href="recipes/adobo.html">Mushroom Adobo</a></li>
-        <img src="https://www.asimpletweak.com/wp-content/uploads/2020/01/Easy-Mushroom-Recipe-1-500x500.jpg" alt="Mushroom Adobo" 
-            width="400" 
-            height="400">
-        <li><a href="recipes/masala.html"> Chana Masala</a></li>
-        <img src="https://minimalistbaker.com/wp-content/uploads/2016/02/EASY-Chana-Masala-SQUARE.jpg" alt="Chana"
-            width="400" 
-            height="400">
-        <li><a href="recipes/salad.html">Chickpea Salad</a></li>
-        <img src="https://www.bowlofdelicious.com/wp-content/uploads/2020/04/chickpea-salad-square.jpg" alt="salad"
-            width="400"
-            height="400">
-    </ol>
-</head>
+        <form style="display: inline" action="recipes/adobo.html" method="get">
+            <button class="btn">Mushroom Adobo</button>
+        </form>
+        <img  class ="img adobo" src="https://www.asimpletweak.com/wp-content/uploads/2020/01/Easy-Mushroom-Recipe-1-500x500.jpg" alt="adobo"> 
+            <br>
+            <form style="display: inline" action="recipes/masala.html" method="get">
+                <button class="btn">Chana Masala</button>
+        </form>
+            <br>
+            <img class="img masala" src="https://minimalistbaker.com/wp-content/uploads/2016/02/EASY-Chana-Masala-SQUARE.jpg" alt="Chana">
+            <br>
+        <form style="display: inline" action="recipes/masala.html" method="get">
+                <button class="btn">Chickpea Salad</button>
+        </form>
+            <br>
+            <img class="img salad" src="https://www.bowlofdelicious.com/wp-content/uploads/2020/04/chickpea-salad-square.jpg" alt="salad">
+     
+    </div> 
+</main> 
+</body>
 </html>

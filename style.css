@@ -1,0 +1,50 @@
+h1 {
+    background-color: #68bb6b;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.btn {
+    background-color: #68bb6b;
+    border: solid 1px #68bb6b;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px; 
+  }
+
+  .btn:hover {
+    background-color: white; /* Green */
+    color: 68bb6b;
+    color: black;
+  }
+
+
+.img {
+  height: auto;
+  width: 550px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.page.home {
+    text-align: center;
+    
+}
+
+h2 {
+    background-color: #68bb6b;
+    color: white;
+}
+
+.ing {
+    column-count: 2;
+}
